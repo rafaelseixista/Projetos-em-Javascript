@@ -6,47 +6,44 @@
     <title>Jogo da Velha</title>
 
     <style>
-#mostrador{
-    margin:auto;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    width: 252px;
-} 
-.espaço{width: 80px; height: 80px; border: 2px solid #000;
 
-   
+#dvjogo{
+    width: 160px;
+    height:160px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
+    .posição{
+width: 50px;
+height: 50px;
+margin: 0px;
+padding: 0px;
+cursor: pointer;
+display:flex;
+border: 1px solid #000;
 
-.tabuleiro{
-  
-    width: 252px; height: 252px; border: 2px solid #000
-    
-}
+    }
 
-
-   
    </style>
 </head>
 <body>
-    <div id = "mostrador">
-        <p style="float:left"; margin-right: 20px>Vez do jogador:</p>
-        <img src="X jogo da velha.png" height="50"> 
-    </div> 
-   
-    <div class="tabuleiro"> 
-
-<div id="a1" class="espaço" jogada=""></div>
-<div id="a2" class="espaço" jogada=""></div>
-<div id="a3" class="espaço" jogada=""></div>
-
-<div id="b1" class="espaço" jogada=""></div>
-<div id="b2" class="espaço" jogada=""></div>
-<div id="b3" class="espaço" jogada=""></div>
-
-<div id="c1" class="espaço" jogada=""></div>
-<div id="c2" class="espaço" jogada=""></div>
-<div id="c3" class="espaço" jogada=""></div>
-
+    
+    <div id="menu">
+        <div id="inicio"></div>
+        <button onclick="">Iniciar Jogo</button>
+    </div>
+    
+    <div id="dvjogo">
+        <div id="p1" class="posição"onclick=""></div>
+        <div id="p2" class="posição" onclick=""></div>
+        <div id="p3" class="posição" onclick=""></div>
+        <div id="p4" class="posição" onclick=""></div>
+        <div id="p5" class="posição" onclick=""></div>
+        <div id="p6" class="posição" onclick=""></div>
+        <div id="p7" class="posição" onclick=""></div>
+        <div id="p8" class="posição" onclick=""></div>
+        <div id="p9" class="posição" onclick=""></div>
     </div>
 </body>
 </html>
