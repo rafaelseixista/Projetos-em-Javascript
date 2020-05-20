@@ -1,6 +1,6 @@
 body{
-    background: rgb(196, 58, 58);
-    font: normal 15pt Arial;
+    background: rgb(172, 60, 147);
+    font: normal 15pt times;
 }
 header{
     color: white;
@@ -16,6 +16,7 @@ section{
 }
 select#flista{
     width: 150px;
+    font: normal times;
 }
 footer{
     color: white;
